@@ -21,7 +21,43 @@ app.mount("/static", StaticFiles(directory=os.path.join(Path(__file__).parent,
 
 # In-memory activity database
 activities = {
-    "Chess Club": {
+    "Basketball": {
+        "description": "Learn basketball skills and compete in games",
+        "schedule": "Mondays and Wednesdays, 4:00 PM - 5:30 PM",
+        "max_participants": 15,
+        "participants": ["james@mergington.edu"]
+    },
+"Soccer": {
+    "description": "Soccer practice and friendly matches",
+    "schedule": "Tuesdays and Thursdays, 3:30 PM - 5:00 PM",
+    "max_participants": 18,
+    "participants": ["alex@mergington.edu"]
+},
+"Debate Club": {
+    "description": "Develop argumentation and public speaking skills",
+    "schedule": "Wednesdays, 3:30 PM - 4:30 PM",
+    "max_participants": 16,
+    "participants": ["lucas@mergington.edu"]
+},
+"Robotics Club": {
+    "description": "Build and program robots for competitions",
+    "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+    "max_participants": 10,
+    "participants": ["ava@mergington.edu"]
+},
+"Drama Club": {
+    "description": "Act in theatrical productions and improve performance skills",
+    "schedule": "Mondays and Fridays, 3:30 PM - 5:00 PM",
+    "max_participants": 25,
+    "participants": ["isabella@mergington.edu"]
+},
+"Art Studio": {
+    "description": "Learn painting, drawing, and sculpture techniques",
+    "schedule": "Tuesdays and Thursdays, 4:00 PM - 5:30 PM",
+    "max_participants": 15,
+"participants": ["mia@mergington.edu"]
+},
+"Chess Club": {
         "description": "Learn strategies and compete in chess tournaments",
         "schedule": "Fridays, 3:30 PM - 5:00 PM",
         "max_participants": 12,
